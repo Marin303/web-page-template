@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Marin Muktic">
+    <title>Leticia</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="hover.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="tab">
+                <button class="tablinks" onclick="openTab(event, 'o-nama')">O nama</button>
+                <button class="tablinks" onclick="openTab(event, 'usluge')">Usluge</button>
+                <button class="tablinks" onclick="openTab(event, 'video')">Video</button>
+                <button class="tablinks" onclick="openTab(event, 'kontakt')">Kontakt</button>
+                <button class="tablinks" onclick="openTab(event, 'drustvene')">Drustvene mreze</button>
+            </div>
+        </nav>
+        <div class="background-image">
+            <div class="tabcontent" id="kontakt">
+                <div>
+                    <span onclick="this.parentElement.style.display='none'">X</span>
+                    <!--                 <div class="logo"><img src="images/letizia_uc.svg" alt="logo" width="150px"></div>
+ -->
+                    <h3>Adresa:</h3>
+                    <p>Ul.------</p>
+                    <br>
+                    <h3>Vlasnica:</h3>
+                    <p>Lorem Ipsun</p>
+                    <br>
+                    <h3>Telefon:</h3>
+                    <p>+000</p>
+                </div>
+                <h3>Kontaktiraj</h3>
+                <form action="" method="get" name="kontakti">
+                    <label for="name">Ime i prezime</label>
+                    <br>
+                    <input type="text" id="name" name="name" required>
+                    <br>
+                    <label for="email">E-mail</label>
+                    <br>
+                    <input type="email" id="email" name="email" required>
+                    <br>
+                    <label for="messange">Poruka</label>
+                    <br>
+                    <textarea name="messange" id="messange" cols="40" rows="5"></textarea>
+                    <br>
+                    <input type="submit" value="Pošalji poruku" name="messange">
+                </form>
+            </div>
+    </header>
+    <main>
+        <div class="tabcontent" id="o-nama">
+            <div>
+                <h2>O nama</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et natus, quo quisquam veritatis numquam
+                    obcaecati modi error reprehenderit vitae voluptas autem magni veniam sequi molestias cum facilis
+                    dicta necessitatibus quod!</p>
+            </div>
+            <img src="images/onama.jpg" alt="" width="50%">
+        </div>
+        <div class="tabcontent" id="usluge">
+            <div>
+                <h2>Usluge</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et natus, quo quisquam veritatis numquam
+                    obcaecati modi error reprehenderit vitae voluptas autem magni veniam sequi molestias cum facilis
+                    dicta necessitatibus quod!</p>
+            </div>
+            <img src="images/usluge.jpg" alt="" width="50%">
+        </div>
+<div class="tabcontent" id="video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/fxIlVbvOHyY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen autoplay></iframe>
+</div>
+    </main>
+    <footer>
+        <div id="drustvene" class="tabcontent">
+            <a href="mailto:">
+                <img src="images/email-icon-121.png" alt="ikona-emaila" width="30px" onmouseover="hoverE(this)"
+                    onmouseout="hoverOutE(this)">
+                <p>Email</p>
+            </a>
+            <a target="_blank" href="https://www.facebook.com/">
+                <img src="images/facebook-wth-bck.png" alt="facebook" width="30px" onmouseover="hoverF(this)"
+                    onmouseout="hoverOutF(this)">
+                <p>Facebook</p>
+            </a>
+            <a href="call:+385">
+                <img id="whatsapp" src="images/whatsapp.png" alt="whatsapp" width="30px" onmouseover="hoverW(this)"
+                    onmouseout="hoverOutW(this)">
+                <p>Whatsapp</p>
+            </a>
+            <a target="_blank" href="https://www.instagram.com/">
+                <img id="instagram" src="images/inst.png" alt="instagram" width="30px" onmouseover="hoverI(this)"
+                    onmouseout="hoverOutI(this)">
+                <p>Instagram</p>
+            </a>
+            <em> &copy; 1986.</em>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
