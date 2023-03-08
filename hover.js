@@ -9,14 +9,14 @@ function hoverW(img) {
   img.src = "images/whatsapphover.png";
 }
 function hoverOutW(img) {
-  img.src = "images/whatsapp.png";
+  img.src = "images/whatsapp-removebg-preview.png";
 }
 
 function hoverF(img) {
-  img.src = "images/facebook.png";
+  img.src = "images/facebook-removebg-preview.png";
 }
 function hoverOutF(img) {
-  img.src = "images/facebook-wth-bck.png";
+  img.src = "images/facebook-wth-bck-removebg-preview.png";
 }
 
 function hoverE(img) {

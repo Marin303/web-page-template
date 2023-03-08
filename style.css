@@ -1,55 +1,92 @@
 /* Style the tab */
 body {
-    margin: 0;
-    height: 100vh;
-    background: url("images/vrt1-1.jpg") no-repeat center center/cover ;
-    display: block;
-    overflow: hidden;
+  margin: 0;
+  height: 100vh;
+  background: url("images/vrt1-1.jpg") no-repeat center center/cover;
+  display: block;
+  overflow: hidden;
 }
+
 /* main, header, footer{
     background-color: #ccc;
 } */
 .tab {
-    overflow: hidden;
-    background-color: #f1f1f1;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  /* Style the buttons that are used to open the tab content */
-  .tab button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
-  }
-  
-  /* Change background color of buttons on hover */
-  .tab button:hover {
-    background-color: #ddd;
-  }
-  
-  /* Create an active/current tablink class */
-  .tab button.active {
-    background-color: #ccc;
-  }
-  
-  /* Style the tab content */
-  .tabcontent {
-    display: none;
-    padding: 6px 12px;
-    border-top: none;
-    animation: fadeEffect 1s;
-  }
+  overflow: hidden;
+  background-color: #f1f1f1;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
 
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+  animation: fadeEffect 1s;
+}
+
+.drustvene-mreze{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(171, 171, 227, 0.5);
+  border-radius:20px;
+  padding: 40px;
+}
+.contact-me{
+  margin: 50px auto;
+  text-align: center;
+  width: 40%;
+  background-color: rgb(171, 171, 227, 0.5);
+  border-radius:20px;
+}
+#usluge, #o-nama{
+  width: 60%;
+  background-color: rgb(171, 171, 227, 0.5);
+  border-radius:20px;
+}
+#video{
+  text-align: center;
+}
+iframe {
+ width:600px;
+ height:400px;
+  
+}
 @keyframes fadeEffect {
-    from {opacity: 0;}
-    to {opacity: 1;}
+  from {
+    opacity: 0;
   }
 
+  to {
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 1000px) {
+  iframe{
+    width:200px;
+    height:200px;
+  }
+}
 
-  

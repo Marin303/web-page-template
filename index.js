@@ -19,16 +19,4 @@ function openTab(evt, add) {
   evt.currentTarget.className += " active";
 
 }
-/* let button = document.querySelector("button")
-let backgroundImage = document.querySelector(".background-image")
-let usluge = document.querySelector("#usluge")
 
-button.addEventListener("click", toggleBackgroundImage)
-
-function toggleBackgroundImage() {
-  if (backgroundImage.style.display === "none") {
-    backgroundImage.style.display = "block"
-  } else {
-    backgroundImage.style.display = "none"
-  }
-} */
