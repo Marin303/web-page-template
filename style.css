@@ -7,9 +7,6 @@ body {
   overflow: hidden;
 }
 
-/* main, header, footer{
-    background-color: #ccc;
-} */
 .tab {
   overflow: hidden;
   background-color: #f1f1f1;
@@ -47,12 +44,19 @@ body {
   animation: fadeEffect 1s;
 }
 
-.drustvene-mreze{
+.drustvene-mreze {
   display: flex;
   justify-content: space-between;
   background-color: rgb(171, 171, 227, 0.5);
   border-radius:20px;
-  padding: 40px;
+  padding: 10px;
+}
+
+.drustvene-mreze a:nth-of-type(-n+4) img {
+  margin-left: 5px;
+}
+em{
+  padding: 10px;
 }
 .contact-me{
   margin: 50px auto;
@@ -85,8 +89,11 @@ iframe {
 }
 @media screen and (max-width: 1000px) {
   iframe{
-    width:200px;
-    height:200px;
+    width:100%;
+    
   }
+.contact-me{
+  width: 100%;
+}
 }
 
