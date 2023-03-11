@@ -1,3 +1,11 @@
+document.addEventListener("click", hideWelcome)
+
+const welcome = document.querySelector(".welcome")
+
+  function hideWelcome() {
+  welcome.style.display = "none";
+}
+
 function openTab(evt, add) {
   // Declare all variables
   let i, tabcontent, tablinks;
