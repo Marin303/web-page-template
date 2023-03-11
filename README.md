@@ -1,3 +1,2 @@
-# web-page
+# Basic template for static website
 
-## have to fix mobile version - media queries
