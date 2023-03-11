@@ -43,7 +43,12 @@ body {
   border-top: none;
   animation: fadeEffect 1s;
 }
-
+.welcome{
+  text-align: center;
+  font-size: 4em;
+  color: #3CAEA3;
+  display: block;
+}
 .drustvene-mreze {
   display: flex;
   justify-content: space-between;
